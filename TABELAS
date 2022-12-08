@@ -1,0 +1,46 @@
+<h1>Atributos colspan e rowspan<\h1>
+Outros dois atributos muito utilizados em tabelas são o colspan e rowspan.
+O colspan (abreviação para “column span“) é utilizado na tag <td> para indicar quantas colunas estarão contidas em uma célula. 
+Veja no código abaixo um exemplo da utilização desse atributo.
+
+ Exemplos práticos usando os recurso da tabela em HTML
+ 
+ <table border="2">
+    <thead>
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Ano</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+
+<tbody>
+    <tr>
+        <td>Volkswagen</td>
+        <td>Polo</td>
+        <td>2009</td>
+        <td>R$ 35.000</td>
+    </tr>
+    <tr>
+        <td>Fiat</td>
+        <td>Uno</td>
+        <td>2005</td>
+        <td>R$15.000</td>
+    </tr>
+    <tr>
+        <td>BWM</td>
+        <td>i320</td>
+        <td>2015</td>
+        <td>R$75.000</td>
+    </tr>
+</tbody>
+
+<tfoot>
+    <tr>
+        <td colspan="4">Ofertas imperdiveis</td>
+    </tr>
+</tfoot>
+
+
+</table>
